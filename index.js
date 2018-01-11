@@ -16,7 +16,8 @@ function happyHolidayTo(holidayParameter, name)
 }
 function holidayCountdown(holidayParameter, amountOfDays)
 {
-  return "It's ${amountOfDays} until ${holidayParameter}!";
+  amountOfDays = amountOfDays.toString();
+  return "It's ${amountOfDays} days until ${holidayParameter}!";
 }
 /*
 describe('functions', () => {

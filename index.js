@@ -8,16 +8,16 @@ function happyHolidaysTo(name)
 {
   // the value of happyHolidaysTo will be equivalent to 'Happy holidays, you!'
   // we use a parameter
-  return 'Happy holidays, ${name}!';
+  return "Happy holidays, ${name}!";
 }
-function happyHolidayTo(holidayParameter, name)
+function happyHolidayTo(holiday, name)
 {
-  return 'Happy ${holidayParameter}, ${name}!';
+  return "Happy ${holiday}, ${name}!";
 }
-function holidayCountdown(holidayParameter, amountOfDays)
+function holidayCountdown(holiday, days)
 {
-  amountOfDays = amountOfDays.toString();
-  return "It's ${amountOfDays} days until ${holidayParameter}!";
+  let qtyOfDays = days.toString();
+  return "It's ${qtyOfDays} days until ${holiday}!";
 }
 /*
 describe('functions', () => {
@@ -45,4 +45,5 @@ describe('functions', () => {
     })
   })
 })
+
 */

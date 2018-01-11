@@ -1,10 +1,23 @@
 // write your code below!
 function happyHolidays()
 {
-  //the value of happyHolidays must be equivalent to 'Happy holidays!'
-  
+  //the value of happyHolidays will be equivalent to 'Happy holidays!'
+  return 'Happy holidays!';
 }
-
+function happyHolidaysTo(you)
+{
+  // the value of happyHolidaysTo will be equivalent to 'Happy holidays, you!'
+  // we use a parameter
+  return 'Happy holidays, ${you}';
+}
+function happyHolidayTo(holidayParameter, name)
+{
+  return 'Happy ${holidayParameter}, ${name}!';
+}
+function holidayCountdown(holidayParameter, amountOfDays)
+{
+  return "It's ${amountOfDays} until ${holidayParameter}!";
+}
 /*
 describe('functions', () => {
   describe('happyHolidays', () => {

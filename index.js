@@ -8,7 +8,7 @@ function happyHolidaysTo(you)
 {
   // the value of happyHolidaysTo will be equivalent to 'Happy holidays, you!'
   // we use a parameter
-  return 'Happy holidays, ${you}';
+  return 'Happy holidays, ${you}!';
 }
 function happyHolidayTo(holidayParameter, name)
 {

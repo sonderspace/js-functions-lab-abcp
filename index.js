@@ -4,11 +4,11 @@ function happyHolidays()
   //the value of happyHolidays will be equivalent to 'Happy holidays!'
   return 'Happy holidays!';
 }
-function happyHolidaysTo(you)
+function happyHolidaysTo(name)
 {
   // the value of happyHolidaysTo will be equivalent to 'Happy holidays, you!'
   // we use a parameter
-  return 'Happy holidays, ${you}!';
+  return 'Happy holidays, ${name}!';
 }
 function happyHolidayTo(holidayParameter, name)
 {

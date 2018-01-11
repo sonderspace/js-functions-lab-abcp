@@ -1,4 +1,10 @@
 // write your code below!
+function happyHolidays()
+{
+  //the value of happyHolidays must be equivalent to 'Happy holidays!'
+  
+}
+
 /*
 describe('functions', () => {
   describe('happyHolidays', () => {
